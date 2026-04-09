@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Fetch Code') {
             steps {
-                git 'https://github.com'
+                git 'https://github.com/Lohith260506/midterm.git'
             }
         }
         stage('Build & Test') {
